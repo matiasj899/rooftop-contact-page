@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background: url(contact-us-bg.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position-x: -250px;
+    background-position-y: -150px;
+    overflow: hidden;
+}
+
+/*#bg-img {
+    background: url(contact-us-bg.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+#navbar {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar div img {
+    width: 50%;
+}
+
+#navbar ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+#navbar ul .black-box {
+    text-decoration: none;
+    background-color: #28323c;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+
+#navbar ul .black-box a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+#navbar ul li {
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #28323c;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#info-and-form-container{
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#info-container .contactanos-container {
+    width: 55%;
+}
+
+#info-container .contactanos-container h1 {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.15;
+    font-weight: 500;
+    
+}
+
+#info-container .contactanos-container p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+#info-container .encuentranos-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px 0px;
+    width: 55%;
+    margin-bottom: 20px;
+}
+
+#info-container .map-img {
+    margin: 0px 15px;
+}
+
+#info-container .encuentranos-container h2 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.15;
+    font-weight: bolder;
+    font-size: medium;
+    margin-bottom: 2px;
+}
+
+#info-container .encuentranos-container p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 2px;
+}
+#info-container .email-img {
+    margin: 0px 15px;
+}
+#info-container .envianos-container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px 0px;
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+#info-container .envianos-container h2 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.15;
+    font-weight: bolder;
+    font-size: medium;
+    margin-bottom: 2px;
+}
+#info-container .envianos-container p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.15;
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 2px;
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#form-container form .name,.sendTo{
+    border: 1px solid #bdbdbd;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #28323c;
+    font-weight: bolder;
+    
+}
+
+#form-container form label{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#form-container form label .email,.submit{
+
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.email{
+    border: 1px solid #bdbdbd;
+    padding: 20px 0px;
+}
+.textarea{
+    height: 100px;
+    border: 1px solid #bdbdbd;
+    width: 100%;
+    padding: 20px 0px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+.submit{
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    background-color: #28323c;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.name-and-sendTo{
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .social-container{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    display: flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(0,0,0,.06);
+}
+
+/*
+footer .lan-container-img{
+    background: url(contact-us-bg.jpg) no-repeat;
+    position: absolute;
+    background-size: 200px;
+    width: 100%;
+    background-position-x: -145px;
+    height: 200px;
+    transform: rotate(
+180deg
+);
+}
+
+footer .lan-container-img:hover{
+    background: url(contact-us-bg.jpg) no-repeat;
+    position: absolute;
+    background-size: 200px;
+    width: 100%;
+    background-position-x: -120px;
+    height: 200px;
+    transform: rotate(
+180deg
+);
+}
+*/
+
+
+footer .lan-container-img{background-color: rgba(0,0,0,.06);
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    left: 98%;
+    display: flex;
+    transform: rotate( 
+45deg
+ );
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: center;
+}
+footer .lan-container-img:hover{
+    background-color: rgba(0,0,0,.06);
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    transform: rotate( 
+45deg
+ );
+left: 95%;
+
+}
+
+footer .text-container{
+    transform: rotate( 
+315deg
+ );
+            display: flex;
+}
+
+footer .text-container p{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff642a;
+    margin-right: 12px;
+}
